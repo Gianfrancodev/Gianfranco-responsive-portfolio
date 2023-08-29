@@ -1,0 +1,59 @@
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #f7f7f7;
+    color: black;
+  }
+  
+  header, nav, section, footer {
+    padding: 20px;
+  }
+  
+  header {
+    background-color: #97f6d7;
+    color: white;
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: grid;
+    justify-content: start;
+    margin-top: 10px;
+    text-transform: uppercase;
+
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: black;
+    margin: 0 20px;
+  }
+  
+  section {
+    margin: 40px 0;
+  }
+  
+  .project {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  footer {
+    text-align: center;
+    background-color: #97f6d7;
+    color: white;
+    padding: 10px;
+  }
+  
+  
+  
+  
+  
+  
+  
