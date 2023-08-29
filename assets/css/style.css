@@ -22,9 +22,10 @@ body, h1, h2, h3, p, ul, li {
   nav ul {
     list-style: none;
     display: grid;
-    justify-content: start;
+    justify-content: center;
     margin-top: 10px;
     text-transform: uppercase;
+   
 
   }
   
