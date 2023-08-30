@@ -1,12 +1,14 @@
-body, h1, h2, h3, p, ul, li {
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
   }
   
   body {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     background-color: #f7f7f7;
     color: black;
+    display: block;
   }
   
   header, nav, section, footer {
@@ -19,14 +21,17 @@ body, h1, h2, h3, p, ul, li {
     text-align: center;
   }
   
-  nav ul {
-    list-style: none;
-    display: grid;
+  nav {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+  }
+  button {
+    display: flex;
     justify-content: center;
     margin-top: 10px;
     text-transform: uppercase;
-   
-
+    box-sizing: border-box;
   }
   
   nav a {
@@ -34,12 +39,34 @@ body, h1, h2, h3, p, ul, li {
     color: black;
     margin: 0 20px;
   }
+
+  main {
+    display: flex;
+  }
+
+  aside {
+    display: flex;
+    list-style: none;
+    flex: 5%;
+    background-color: #97f6d7;
+    flex-wrap: wrap;
+    padding: 10px;
+  }
+
+  .container {
+    display: flex;
+    position: relative;
+    max-width: 1160px;
+    margin: 0 auto;
+    padding: 50px 50px;
+}
   
   section {
     margin: 40px 0;
   }
   
   .project {
+    display: flex;
     border: 1px solid #ccc;
     padding: 10px;
     margin-bottom: 20px;
