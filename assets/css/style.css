@@ -13,6 +13,24 @@
   header, nav, section, footer {
     padding: 20px;
   }
+
+  @media screen and (max-width: 768px) {
+    main,
+    nav {
+    flex-direction: column;
+    min-width: 100%;
+    justify-content: center;
+  }
+  }
+
+  @media screen and (max-width: 480px) {
+    main,
+    nav {
+      flex-direction: column;
+      min-width: 100%;
+      justify-content: center;
+  }
+  }
   
   header {
     background-color: #4cde8472;
@@ -23,6 +41,7 @@
   h2 {
     margin-left: 10px;
     min-width: 50px;
+    justify-content: center;
 
   }
   
@@ -62,16 +81,18 @@
 
   main {
     display: flex;
+    flex-wrap: wrap;
   }
 
   .container {
     display: flex;
+    flex-wrap: wrap;
     position: relative;
     margin: 0 auto;
     min-width: 100px;
     padding: 30px;
     align-items: center;
-}
+  }
   
   section {
     margin: 40px 0;
@@ -92,7 +113,7 @@
     position: relative;
     width: 400px;
     height: 400px;
-}
+  }
 
  .image-link a {
     top: 0;
@@ -102,7 +123,7 @@
     text-decoration: none;
     background-color: rgba(0, 0, 0, 0.2);
     transition: background-color 0.3s;
-}
+  }
 
   .image-link img {
     display: block;
@@ -112,9 +133,9 @@
 
   .image-link:hover a {
     background-color: #ccc4c444;
-}
+  }  
 
-.caption {
+  .caption {
     position: absolute;
     bottom: 0;
     left: 0;
@@ -125,7 +146,7 @@
     font-size: 14px;
     text-align: center;
     text-transform: uppercase;
-}
+  }
 
   .about-me img {
     width: 200px;
@@ -137,7 +158,7 @@
     margin-top: 15px;
     width: 50px;
     height: 50px;
-}
+  }
 
   .social-icons a {
     display: inline-block;
@@ -145,14 +166,19 @@
     color: white;
     text-decoration: none;
     font-size: 20px;
-}
+  } 
 
-.social-icons img {
+  .social-icons img {
     height: 50px;
     width: 50px;
-}
+  }
 
-  
+  .contact-footer {
+    background-color: #33333300;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+  }
   footer {
     text-align: center;
     background-color: #97f6d7;
