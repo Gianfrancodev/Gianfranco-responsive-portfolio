@@ -43,8 +43,9 @@
     border: none;
   }
 
-  button:hover {
+  nav a:hover {
     background-color: #4cde8472;
+    color: white;
   }
   
   nav a {
@@ -56,6 +57,7 @@
   p {
     margin-left: 20px;
     align-items: center;
+    max-width: 75%;
   }
 
   main {
@@ -80,6 +82,9 @@
     border: 1px solid #ccc;
     padding: 10px;
     margin-bottom: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    max-width: 75%;
   }
   
   footer {
