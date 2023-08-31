@@ -6,8 +6,7 @@
   
   body {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    background-color: #f7f7f7;
-    color: black;
+    background-color: #edecec;
     display: block;
   }
   
@@ -16,22 +15,36 @@
   }
   
   header {
-    background-color: #97f6d7;
+    background-color: #4cde8472;
     color: white;
     text-align: center;
+  }
+
+  h2 {
+    margin-left: 10px;
+    min-width: 50px;
+
   }
   
   nav {
     display: flex;
     justify-content: center;
     margin-top: 5%;
+
   }
   button {
+    font-size: large;
+    width: 250px;
     display: flex;
     justify-content: center;
-    margin-top: 10px;
+    margin: 0 .5%;
     text-transform: uppercase;
-    box-sizing: border-box;
+    background-color: #edecec;
+    border: none;
+  }
+
+  button:hover {
+    background-color: #4cde8472;
   }
   
   nav a {
@@ -40,25 +53,22 @@
     margin: 0 20px;
   }
 
-  main {
-    display: flex;
+  p {
+    margin-left: 20px;
+    align-items: center;
   }
 
-  aside {
+  main {
     display: flex;
-    list-style: none;
-    flex: 5%;
-    background-color: #97f6d7;
-    flex-wrap: wrap;
-    padding: 10px;
   }
 
   .container {
     display: flex;
     position: relative;
-    max-width: 1160px;
     margin: 0 auto;
-    padding: 50px 50px;
+    min-width: 100px;
+    padding: 30px;
+    align-items: center;
 }
   
   section {
